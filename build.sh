@@ -27,5 +27,5 @@ $babel test --out-dir build/test
 $babel *.js --out-dir build
 
 # copy
-cp -r config/ build/
+cp -r config build/
 cp package.json build/
